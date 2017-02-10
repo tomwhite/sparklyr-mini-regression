@@ -1,13 +1,13 @@
-Package: sparklyr-mini-regression
+Package: sparklyr.minireg
 Type: Package
-Title: sparklyr-mini-regression
+Title: Linear regression for timeseries data
 Version: 0.0.1
 Authors@R: c(
     person("Tom", "White", email = "tom@cloudera.com", role = c("aut", "cre"))
     )
 Maintainer: Tom White <tom@cloudera.com>
 Description: A sparklyr extension for running linear regressions over windows of
-timeseries data.
+    timeseries data.
 License: Apache 2
 LazyData: TRUE
 Depends:
