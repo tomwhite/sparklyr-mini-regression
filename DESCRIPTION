@@ -1,0 +1,21 @@
+Package: sparklyr-mini-regression
+Type: Package
+Title: sparklyr-mini-regression
+Version: 0.0.1
+Authors@R: c(
+    person("Tom", "White", email = "tom@cloudera.com", role = c("aut", "cre"))
+    )
+Maintainer: Tom White <tom@cloudera.com>
+Description: A sparklyr extension for running linear regressions over windows of
+timeseries data.
+License: Apache 2
+LazyData: TRUE
+Depends:
+    R (>= 3.1.2)
+Imports:
+    rprojroot,
+    digest
+Remotes: rstudio/sparklyr
+Suggests:
+    testthat
+RoxygenNote: 6.0.1
